@@ -1,0 +1,26 @@
+we can use CDN(content delivery network), it is fast but it is dependent on internet, so if internet is slow then try downloading bootstrap file and then use it.
+we put script at the end of body, because we dont want that all script get filed at time of page loading.
+
+.container has a max width pixel value, whereas .container-fluid is max-width 100%.
+.container-fluid continuously resizes as you change the width of your window/browser by any amount.
+.container resizes in chunks at several certain widths, controlled by media queries (technically we can say it’s “fixed width” because pixels values are specified, but if you stop there, people may get the impression that it can’t change size – i.e. not responsive.)
+When using .container-fluid because the witdh is related to the viewport width the display is dynamic
+Use .container-fluid when you want your page to shapeshift with every little difference in its viewport size.
+Use .container when you want your page to shapeshift to only 5 kinds of sizes, which are also known as "breakpoints".
+
+pt-1,2,3,4,5;(padding top), Max value can be % only, cant go more than that
+mx-auto(margin on x axis auto), ml-auto, mr-auto (margin left right auto)
+w-25 (width 25 50 75 100)
+
+grid system should be used in container or contianer-fluid, or div.
+As of now, to apply mx-auto, it is asking to provide width.
+
+py-5, it means padding of 5 from top and down.
+
+display-1 means biggest size, can go to 2 3 and 4.
+
+Bootstrap 4 is responsive and mobile friendly from the start. Its five tier(xl - l - md - xs and general) grid classes provides better control over the layout as well as how it will be rendered on different types of devices like mobile phones, tablets, laptops and desktops, large screen devices, and so on.
+
+create a responsive layout that is rendered as 4 column layout in extra-large devices (viewport ≥ 1200px), and 3 column layout in large devices (992px ≤ viewport < 1200px), whereas 2 column layout in medium devices (768px ≤ viewport < 992px), and 1 column layout in small and extra-small devices (viewport < 768px). Let's see how this works:
+
+col-md-6 col-lg-4 col-xl-3
